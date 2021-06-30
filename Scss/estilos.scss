@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Para todo el codigo en común */
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    line-height: 16px;
+    font-size: 16px;
+}
+.body{
+    background-color: #212529;
+    .container{
+        // Inicio
+        .claseBackGroud1{
+            border-bottom: 1px solid white;
+            .Inicio{
+                margin-top: 4%; 
+                height: 40vh; 
+                line-height: 25px; 
+                    h1 , h2{
+                        text-align: center;
+                    }
+                    h1{
+                        animation-duration: 5s;
+                        animation-name: mostrar;
+                    } 
+                    h2{
+                        animation-duration: 15s;
+                        animation-name: mostrar;
+                    }
+                    h3{
+                        text-align: center; 
+                        padding-top: 4%;
+                    }
+            } 
+        }
+        .claseBackGroud2{
+            margin-top: 5%;
+            margin-bottom: 2%;
+            border-bottom: 1px solid white;
+            .Informacion{
+                padding-left: 10%;
+                padding-right: 10%;
+                .Cards{
+                    display: grid;
+                    grid-template-columns: 2fr;
+                    grid-row-gap: 10px;
+                    grid-column-gap: 10px;
+                    .Card{
+                        border: solid 1px grey;
+                        height: 100%;
+                        width: 100%;
+                        text-align: center;
+                        padding: 10% 4% 10% 4%;
+                    }
+                }
+                @media all and (min-width: 460px){
+                    .Cards{
+                        grid-template-columns: 2fr 2fr;
+                        grid-row-gap: 10px;   
+                    }
+                }
+                @media all and (min-width: 768px){
+                    .Cards{
+                        grid-template-columns: 1fr 1fr 1fr 1fr;        
+                    }
+                }
+                @media all and (min-width: 460px){
+                    
+                }
+            }
+        }
+        .Descripcion{
+            text-align: center;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            .imagenes{
+                margin-top: 5%;
+                display: flex;
+                justify-content: center;
+                .imagenes-columna img{
+                    padding-top: 3%;
+                 }
+            }
+            input{
+                padding: 1%;
+                font-size: 20px;
+                background-color: white;
+                color: black;
+                margin-top: 2%;
+            }
+            input:hover{
+                background-color: violet;
+            }
+        }
+        .Pagos{
+            height: 20rem; 
+            // border: 1px solid red; 
+            margin-bottom: 2rem; 
+            .Pagos_Seccion{
+                height: 4rem; 
+                border: 1px solid violet;
+                .Medios_Pagos{
+                    text-align: center; 
+                    padding-top: 1rem;
+                }
+                .Me_Pagos{
+                    display: flex; 
+                    line-height: 4px;
+                    text-align: center;
+                    .Opciones_Pagos{
+                        border: 1px solid aqua; 
+                        height: 10rem; 
+                        width: 30%; 
+                        margin-top: 4rem; 
+                        margin-left: auto; 
+                        margin-right: auto;
+                    }
+                }
+
+            }
+        }
+        // Nosotros
+        .Text_Roll{
+            text-align: center; 
+            padding-top: 2%; 
+            font-style: oblique;
+        }
+        .Perfil{
+            border: 1px solid white; 
+            width: 50%; 
+            height: 100%; 
+            margin-top: 3%; 
+            float: right;
+            padding: 2%;
+            .Informacion_Perfil{
+                display: inline-flex  
+            }
+        }
+        // Productos
+        .Info_Productos{
+            text-align: center;
+        }
+        .Productos{
+            display: flex;
+            margin-bottom: 2rem;
+            .card{
+                width: 18rem; 
+                margin-right: 4%;
+                .card-body{
+                    .card-title{
+                        color: black;
+                    }
+                    p{
+                        color: black;
+                    }
+                    .btn-primary{
+                        // Modificando el SASS de Bootstrap
+                        background-color: rgb(49, 7, 199);
+                        border-color: white;
+                        color: white;
+                        border-radius: 8px;
+                    }
+                    // Modificamos el SASS Hover de Bootstrap
+                    .btn-primary:hover{
+                        background-color: black;
+                        border-color: violet;
+                    }
+                }
+            }
+        }
+        .Contactanos{
+            margin-left: 10px;
+            margin-right: 4px;
+            // Modificando el SASS de Bootstrap
+            .form-group{
+                // Modificando el SASS de Bootstrap
+                .form-control{
+                    width: 60%;
+                }
+            }
+            .btn-primary{
+                // Modificando el SASS de Bootstrap
+                background-color: rgb(49, 7, 199);
+                border-color: white;
+                color: white;
+                border-radius: 8px;
+            }
+            // Modificando el SASS de Bootstrap
+            .btn-primary:hover{
+                background-color: black;
+                border-color: violet;
+            }
+        }
+
+    }
+    .Footer{
+        height: 35vh; 
+        width: 100%; 
+        border: solid 1px white; 
+        position: relative; 
+        bottom: 0; 
+        text-align: center;   
+    }
+}
+@keyframes mostrar{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
