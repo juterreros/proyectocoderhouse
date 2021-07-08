@@ -53,11 +53,6 @@
   border-bottom: 1px solid white;
 }
 
-.body .container .claseBackGroud2 .Informacion {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 .body .container .claseBackGroud2 .Informacion .Cards {
   display: -ms-grid;
   display: grid;
