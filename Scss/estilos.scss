@@ -35,13 +35,13 @@
     .cabecera{
         background-image: url(/Images/cabecera.jpg);
         background-size:cover; 
-        padding-top: 140px; min-height: 600px;
+        padding-top: 140px; min-height: 760px;
         .container{
             .content-center{
                 max-width: 800px; 
                 margin: 0 auto 60px auto; 
                 text-align: center; 
-                margin-top: 60px;
+                margin-top: 150px;
                 h1{
                     font-size: 60px; 
                     font-weight: 600; 
@@ -138,45 +138,6 @@
            } 
         }
     }
-    .footer{
-        padding: 40px 0; 
-        text-align: center; 
-        color: white; 
-        background: black;
-        .container-fluid{
-            background-color: black;
-            img{
-                max-height: 120px;
-            }
-            ul{
-                .footer-menu{
-                    padding: 10px 15px;
-                    a{
-                        color: white;
-                    }
-                }
-            }   
-        }
-    }
-    //         // Nosotros
-    .container{
-        .Text_Roll{
-            text-align: center; 
-            padding-top: 2%; 
-            font-style: oblique;
-        }
-        .Perfil{
-            border: 1px solid white; 
-            width: 50%; 
-            height: 100%; 
-            margin-top: 100px; 
-            float: right;
-            padding: 2%;
-            .Informacion_Perfil{
-                display: inline-flex  
-            }
-        }
-    }
     .Contact{
         .container{
             .row{
@@ -198,6 +159,26 @@
                     text-align: center;  
                 }
             }
+        }
+    }
+    .footer{
+        padding: 40px 0; 
+        text-align: center; 
+        color: white; 
+        background: black;
+        .container-fluid{
+            background-color: black;
+            img{
+                max-height: 120px;
+            }
+            ul{
+                .footer-menu{
+                    padding: 10px 15px;
+                    a{
+                        color: white;
+                    }
+                }
+            }   
         }
     }
 }
