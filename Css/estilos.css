@@ -164,7 +164,7 @@
 
 /* line 141, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer {
-  padding: 60px 0;
+  padding: 40px 0;
   text-align: center;
   color: white;
   background: black;
@@ -212,30 +212,23 @@
   display: inline-flex;
 }
 
-/* line 180, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
-.body .Contactanos {
-  margin-top: 220px;
-  margin-left: 10px;
-  margin-right: 4px;
+/* line 182, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Contact .container .row {
+  margin-top: 120px;
+  margin-bottom: 40px;
 }
 
-/* line 187, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
-.body .Contactanos .form-group .form-control {
-  width: 60%;
-}
-
-/* line 191, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
-.body .Contactanos .btn-primary {
-  background-color: #3107c7;
-  border-color: white;
-  color: white;
-  border-radius: 8px;
-}
-
-/* line 199, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
-.body .Contactanos .btn-primary:hover {
+/* line 188, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Contact .container .row .col-md-6 .row .col-md-12 .btn-primary {
   background-color: black;
-  border-color: violet;
+  text-decoration: none;
+  border-color: black;
+}
+
+/* line 196, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Contact .container .row .topmargin-sm {
+  margin-top: 160px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

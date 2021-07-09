@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Contacto, mensaje, correo">
     <meta name="description" content="Habla con el equipo especializado de itinnovas y le brindamos las mejores soluciones que más se adecuan a cada persona o empresa">
-    <!-- <link rel="stylesheet" href="Css/Styles.css"> -->
-    <link rel="stylesheet" href="./Scss/estilos.css">
+    <link rel="stylesheet" href="./Css/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Contacto Itinnovas</title>
 </head>
-<body class="body">
+<body class="body" style="background-color: purple;">
     <header> 
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container">         
@@ -37,57 +36,65 @@
                 </div>
             </div>
         </nav>
-    </header>     
-    <div class="container">
-        <div class="Contactanos">
-          <h1>Contacte a nuestro equipo ItInnovas</h1>
-            <form>
-                <div class="form-group">
-                    <label>Nombre</label>
-                    <input type="text" class="form-control"required>
+    </header>  
+       <section class="Contact">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6 topmargin-sm">
+                        <h3>¿Estas listo para comunicarte con nosotros y aclararte todas tus dudas?</h3>
+                        <p style="margin-top: 30px;">Queremos ayudarte a solucionar todas tus dudas; por tal motivo
+                            comunicate con nosotros dejandonos un mensaje junto con tus
+                            datos para podernos poner en contacto y darte la mejor solución
+                        </p>
+                   </div>
+                   <div class="col-md-6">
+                       <div class="row">
+                           <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                           </div>
+                           <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Apellidos">
+                            </div>
+                           </div>
+                           <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Movil">
+                            </div>
+                           </div>
+                           <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                           </div>
+                           <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Cuentanos!!</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                               <a href="" class="btn btn-primary">Enviar</a>
+                           </div>
+                       </div>
                 </div>
-                <div class="form-group">
-                    <label>Correo</label>
-                    <input type="email" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <label>Ciudad</label>
-                    <input type="text" class="form-control" required>
-                </div>
-                <div class="form-group">
-                  <label>Estado Civil</label>
-                  <select class="form-control">
-                      <option value="" style="color: black;">...</option>
-                      <option value="" style="color: black;">Solter@</option>
-                      <option value="" style="color: black;">Casad@</option>
-                      <option value="" style="color: black;">Union Libre</option>
-                      <option value="" style="color: black;">Separad@</option>
-                      <option value="" style="color: black;">Otr@</option>
-                  </select>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Información
-                </button>
-            </form>
-        </div>
-      </div>
+               </div>
+           </div>
+       </section>
       <section class="footer">
         <div class="container-fluid">
             <img src="./Images/Logo.png" alt="">
             <ul class="list-inline">
-                <li class="list-inline-item footer-menu " ><a href="#">Inicio</a></li>
-                <li class="list-inline-item footer-menu "><a href="#">Nosotros</a></li>
-                <li class="list-inline-item footer-menu "><a href="#">Productos</a></li>
-                <li class="list-inline-item footer-menu "><a href="#">Contactanos</a></li>
+                <li class="list-inline-item footer-menu"><a href="#" >Facebook</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Twitter</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Instagram</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Linkedind</a></li>
             </ul>
-            <ul class="list-inline">
-                <li class="list-inline-item " style="padding: 10px 15px"><a href="#" style="color: white;">Facebook</a></li>
-                <li class="list-inline-item " style="padding: 10px 15px"><a href="#" style="color: white;">Twitter</a></li>
-                <li class="list-inline-item " style="padding: 10px 15px"><a href="#" style="color: white;">Instagram</a></li>
-                <li class="list-inline-item " style="padding: 10px 15px"><a href="#" style="color: white;">Linkedind</a></li>
-            </ul>
-            <p>Derechos reservados © Juan S. Terreros E.</p>
+            <p>Derechos reservados </p>
+            <p>©</p>
+            <p>Juan S. Terreros E.</p>
         </div>
     </section>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
