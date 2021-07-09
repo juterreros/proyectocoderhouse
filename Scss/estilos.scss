@@ -35,7 +35,7 @@
     .cabecera{
         background-image: url(/Images/cabecera.jpg);
         background-size:cover; 
-        padding-top: 160px; min-height: 600px;
+        padding-top: 140px; min-height: 600px;
         .container{
             .content-center{
                 max-width: 800px; 
@@ -57,7 +57,7 @@
     }
     .Informacion{
         padding: 100px 0;
-        background-color: #54504F;
+        background-color: black;
         .container-fluid{
             .content-center{
                 max-width: 800px; 
@@ -102,8 +102,44 @@
             }
         }
     }
+    .recomendaciones{
+        background-color: purple;
+        margin-top: -100px;
+        .content-center{
+            padding-top: 80px;
+            max-width: 800px; 
+            margin: 0 auto 60px auto; 
+            text-align: center; 
+            margin-top: 60px;
+            h1{
+                font-size: 60px; 
+                font-weight: 600; 
+                line-height: 80px;  
+            }
+            p{
+                font-size: 18px; 
+                line-height: 1.8; 
+                margin-bottom: 0;
+            }
+        }
+        .container{
+           #carouselExampleIndicators{
+            min-height: 250px; 
+            padding: 40px; 
+            border-radius: 2px; 
+            text-align: center; 
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        height: 25px;
+                    }
+                }
+            }
+           } 
+        }
+    }
     .footer{
-        padding: 80px 0; 
+        padding: 60px 0; 
         text-align: center; 
         color: white; 
         background: black;
@@ -123,20 +159,22 @@
         }
     }
     //         // Nosotros
-    .Text_Roll{
+    .container{
+        .Text_Roll{
             text-align: center; 
             padding-top: 2%; 
             font-style: oblique;
-    }
-    .Perfil{
-        border: 1px solid white; 
-        width: 50%; 
-        height: 100%; 
-        margin-top: 100px; 
-        float: right;
-        padding: 2%;
-        .Informacion_Perfil{
-            display: inline-flex  
+        }
+        .Perfil{
+            border: 1px solid white; 
+            width: 50%; 
+            height: 100%; 
+            margin-top: 100px; 
+            float: right;
+            padding: 2%;
+            .Informacion_Perfil{
+                display: inline-flex  
+            }
         }
     }
     .Contactanos{
@@ -164,204 +202,3 @@
         }
     }
 }
-//     .container{
-//         // Inicio
-//         .claseBackGroud1{
-//             border-bottom: 1px solid white;
-//             .Inicio{
-//                 margin-top: 4%; 
-//                 height: 40vh; 
-//                 line-height: 25px; 
-//                     h1 , h2{
-//                         text-align: center;
-//                     }
-//                     h1{
-//                         animation-duration: 5s;
-//                         animation-name: mostrar;
-//                     } 
-//                     h2{
-//                         animation-duration: 15s;
-//                         animation-name: mostrar;
-//                     }
-//                     h3{
-//                         text-align: center; 
-//                         padding-top: 4%;
-//                     }
-//             } 
-//         }
-//         .claseBackGroud2{
-//             margin-top: 5%;
-//             margin-bottom: 2%;
-//             border-bottom: 1px solid white;
-//             .Informacion{
-//                 // padding-left: 10%;
-//                 // padding-right: 10%;
-//                 .Cards{
-//                     display: grid;
-//                     grid-template-columns: 2fr;
-//                     grid-row-gap: 10px;
-//                     grid-column-gap: 10px;
-//                     .Card{
-//                         border: solid 1px grey;
-//                         height: 100%;
-//                         width: 100%;
-//                         text-align: center;
-//                         padding: 10% 4% 10% 4%;
-//                     }
-//                 }
-//                 @media all and (min-width: 460px){
-//                     .Cards{
-//                         grid-template-columns: 2fr 2fr;
-//                         grid-row-gap: 10px;   
-//                     }
-//                 }
-//                 @media all and (min-width: 768px){
-//                     .Cards{
-//                         grid-template-columns: 1fr 1fr 1fr 1fr;        
-//                     }
-//                 }
-//                 @media all and (min-width: 460px){
-                    
-//                 }
-//             }
-//         }
-//         .Descripcion{
-//             text-align: center;
-//             padding-top: 5%;
-//             padding-bottom: 5%;
-//             .imagenes{
-//                 margin-top: 5%;
-//                 display: flex;
-//                 justify-content: center;
-//                 .imagenes-columna img{
-//                     padding-top: 3%;
-//                  }
-//             }
-//             input{
-//                 padding: 1%;
-//                 font-size: 20px;
-//                 background-color: white;
-//                 color: black;
-//                 margin-top: 2%;
-//             }
-//             input:hover{
-//                 background-color: violet;
-//             }
-//         }
-//         .Pagos{
-//             height: 20rem; 
-//             // border: 1px solid red; 
-//             margin-bottom: 2rem; 
-//             .Pagos_Seccion{
-//                 height: 4rem; 
-//                 border: 1px solid violet;
-//                 .Medios_Pagos{
-//                     text-align: center; 
-//                     padding-top: 1rem;
-//                 }
-//                 .Me_Pagos{
-//                     display: flex; 
-//                     line-height: 4px;
-//                     text-align: center;
-//                     .Opciones_Pagos{
-//                         border: 1px solid aqua; 
-//                         height: 10rem; 
-//                         width: 30%; 
-//                         margin-top: 4rem; 
-//                         margin-left: auto; 
-//                         margin-right: auto;
-//                     }
-//                 }
-
-//             }
-//         }
-//         // Nosotros
-//         .Text_Roll{
-//             text-align: center; 
-//             padding-top: 2%; 
-//             font-style: oblique;
-//         }
-//         .Perfil{
-//             border: 1px solid white; 
-//             width: 50%; 
-//             height: 100%; 
-//             margin-top: 3%; 
-//             float: right;
-//             padding: 2%;
-//             .Informacion_Perfil{
-//                 display: inline-flex  
-//             }
-//         }
-//         // Productos
-//         .Info_Productos{
-//             text-align: center;
-//         }
-//         .Productos{
-//             display: flex;
-//             margin-bottom: 2rem;
-//             .card{
-//                 width: 18rem; 
-//                 margin-right: 4%;
-//                 .card-body{
-//                     .card-title{
-//                         color: black;
-//                     }
-//                     p{
-//                         color: black;
-//                     }
-//                     .btn-primary{
-//                         // Modificando el SASS de Bootstrap
-//                         background-color: rgb(49, 7, 199);
-//                         border-color: white;
-//                         color: white;
-//                         border-radius: 8px;
-//                     }
-//                     // Modificamos el SASS Hover de Bootstrap
-//                     .btn-primary:hover{
-//                         background-color: black;
-//                         border-color: violet;
-//                     }
-//                 }
-//             }
-//         }
-//         .Contactanos{
-//             margin-left: 10px;
-//             margin-right: 4px;
-//             // Modificando el SASS de Bootstrap
-//             .form-group{
-//                 // Modificando el SASS de Bootstrap
-//                 .form-control{
-//                     width: 60%;
-//                 }
-//             }
-//             .btn-primary{
-//                 // Modificando el SASS de Bootstrap
-//                 background-color: rgb(49, 7, 199);
-//                 border-color: white;
-//                 color: white;
-//                 border-radius: 8px;
-//             }
-//             // Modificando el SASS de Bootstrap
-//             .btn-primary:hover{
-//                 background-color: black;
-//                 border-color: violet;
-//             }
-//         }
-
-//     }
-//     .Footer{
-//         height: 35vh; 
-//         width: 100%; 
-//         border: solid 1px white; 
-//         position: relative; 
-//         bottom: 0; 
-//         text-align: center;   
-//     }
-// }
-// @keyframes mostrar{
-//     0%{
-//         opacity: 0;
-//     }
-//     100%{
-//         opacity: 1;
-//     }
