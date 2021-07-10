@@ -9,7 +9,7 @@
     font-size: 16px;
 }
 .body{
-    background-color: #212529;
+    background-color: purple;
     // Modificando el Navbar
     nav{
         min-height: 80px;
@@ -57,7 +57,7 @@
     }
     .Informacion{
         padding: 100px 0;
-        background-color: black;
+        // background-color: black;
         .container-fluid{
             .content-center{
                 max-width: 800px; 
@@ -90,10 +90,10 @@
                                 color: black; 
                                 text-decoration: none; 
                                 h2{
-                                    color: #FF00FF;
+                                    color:black;
                                 }
                                 p{
-                                    color: #6B02DA;
+                                    color: black;
                                 } 
                             }
                         }
@@ -130,8 +130,12 @@
             text-align: center; 
             .carousel-inner{
                 .carousel-item{
-                    img{
-                        height: 25px;
+                    .avatar{
+                        height: 200px;
+                        padding-bottom: 40px;
+                    }
+                    .start{
+                        height: 30px;
                     }
                 }
             }
@@ -139,6 +143,7 @@
         }
     }
     .Contact{
+        margin-bottom: 70px;
         .container{
             .row{
                 margin-top: 120px;
@@ -157,6 +162,41 @@
                 .topmargin-sm{
                     margin-top: 160px;
                     text-align: center;  
+                }
+            }
+        }
+    }
+    .Nosotros{
+        margin-top: 200px;
+        .container{
+            .content-center{
+                max-width: 800px; 
+                margin: 0 auto 60px auto; 
+                text-align: center; 
+                margin-top: 150px;
+                h1{
+                    font-size: 60px; 
+                    font-weight: 600; 
+                    line-height: 80px;  
+                }
+                p{
+                    font-size: 18px; 
+                    line-height: 1.8; 
+                    margin-bottom: 0;
+                }
+            }
+            .row{
+                .col-md-4{
+                    .img-fluid{
+                        height: 250px;
+                    }
+                    .redes{
+                        margin-bottom: 20px;
+                        img{
+                            height: 22px; 
+                            padding-right: 8px;
+                        }
+                    }
                 }
             }
         }

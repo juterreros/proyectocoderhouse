@@ -13,7 +13,7 @@
 
 /* line 11, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body {
-  background-color: #212529;
+  background-color: purple;
 }
 
 /* line 14, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
@@ -64,7 +64,6 @@
 /* line 58, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Informacion {
   padding: 100px 0;
-  background-color: black;
 }
 
 /* line 62, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
@@ -112,12 +111,12 @@
 
 /* line 92, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container .portfolio-details a h2 {
-  color: #FF00FF;
+  color: black;
 }
 
 /* line 95, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container .portfolio-details a p {
-  color: #6B02DA;
+  color: black;
 }
 
 /* line 105, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
@@ -158,30 +157,84 @@
 }
 
 /* line 133, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
-.body .recomendaciones .container #carouselExampleIndicators .carousel-inner .carousel-item img {
-  height: 25px;
+.body .recomendaciones .container #carouselExampleIndicators .carousel-inner .carousel-item .avatar {
+  height: 200px;
+  padding-bottom: 40px;
 }
 
-/* line 143, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 137, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .recomendaciones .container #carouselExampleIndicators .carousel-inner .carousel-item .start {
+  height: 30px;
+}
+
+/* line 145, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Contact {
+  margin-bottom: 70px;
+}
+
+/* line 148, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Contact .container .row {
   margin-top: 120px;
   margin-bottom: 40px;
 }
 
-/* line 149, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 154, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Contact .container .row .col-md-6 .row .col-md-12 .btn-primary {
   background-color: black;
   text-decoration: none;
   border-color: black;
 }
 
-/* line 157, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 162, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .Contact .container .row .topmargin-sm {
   margin-top: 160px;
   text-align: center;
 }
 
-/* line 164, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 169, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros {
+  margin-top: 200px;
+}
+
+/* line 172, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/* line 177, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .content-center h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+/* line 182, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .content-center p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+/* line 190, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .row .col-md-4 .img-fluid {
+  height: 250px;
+}
+
+/* line 193, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .row .col-md-4 .redes {
+  margin-bottom: 20px;
+}
+
+/* line 195, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+.body .Nosotros .container .row .col-md-4 .redes img {
+  height: 22px;
+  padding-right: 8px;
+}
+
+/* line 204, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer {
   padding: 40px 0;
   text-align: center;
@@ -189,22 +242,22 @@
   background: black;
 }
 
-/* line 169, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 209, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer .container-fluid {
   background-color: black;
 }
 
-/* line 171, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 211, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer .container-fluid img {
   max-height: 120px;
 }
 
-/* line 175, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 215, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer .container-fluid ul .footer-menu {
   padding: 10px 15px;
 }
 
-/* line 177, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
+/* line 217, ../../../../../Desktop/ProyectoTerreros/scss/estilos.scss */
 .body .footer .container-fluid ul .footer-menu a {
   color: white;
 }
