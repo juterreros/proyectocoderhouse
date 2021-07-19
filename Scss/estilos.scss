@@ -1,223 +1,340 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Para todo el codigo en común */
-*{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-decoration: none;
-    line-height: 16px;
-    font-size: 16px;
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+  line-height: 16px;
+  font-size: 16px;
 }
-.body{
+.body {
+  background-color: purple;
+  // Modificando el Navbar
+  nav {
+    min-height: 80px;
+    .container {
+      a {
+        img {
+          // min-width: 100px;
+          max-width: 80px;
+        }
+      }
+      // Colores de los links
+      #navbarSupportedContent {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  .cabecera {
+    background-image: url(/Images/cabecera.jpg);
+    background-size: cover;
+    padding-top: 140px;
+    min-height: 760px;
+    .container {
+      .content-center {
+        max-width: 800px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+        margin-top: 150px;
+        h1 {
+          font-size: 60px;
+          font-weight: 600;
+          line-height: 80px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 1.8;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .Informacion {
+    padding: 100px 0;
+    background-color: black;
+    .container-fluid {
+      .content-center {
+        max-width: 800px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+        margin-top: 60px;
+        h1 {
+          font-size: 60px;
+          font-weight: 600;
+          line-height: 80px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 1.8;
+          margin-bottom: 0;
+        }
+      }
+      .row {
+        .col-md-4 {
+          .portfolio-container {
+            position: relative;
+            overflow: hidden;
+            margin: 10px 0;
+            .portfolio-details {
+              position: absolute;
+              bottom: 25px;
+              left: 25px;
+              z-index: 10;
+              h2 {
+                color: black;
+              }
+              p {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .recomendaciones {
     background-color: purple;
-    // Modificando el Navbar
-    nav{
-        min-height: 80px;
-        .container{
-            a{
-                img{
-                    // min-width: 100px; 
-                    max-width: 80px;
-                }
-            }
-            // Colores de los links
-            #navbarSupportedContent{
-                .navbar-nav{
-                    .nav-item{
-                        .nav-link{
-                            color: black;
-                        }
-                    }
-                }
-            }
-        }
+    .content-center {
+      padding-top: 80px;
+      max-width: 800px;
+      margin: 0 auto 60px auto;
+      text-align: center;
+      margin-top: 60px;
+      h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 80px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 0;
+      }
     }
-    .cabecera{
-        background-image: url(/Images/cabecera.jpg);
-        background-size:cover; 
-        padding-top: 140px; min-height: 760px;
-        .container{
-            .content-center{
-                max-width: 800px; 
-                margin: 0 auto 60px auto; 
-                text-align: center; 
-                margin-top: 150px;
-                h1{
-                    font-size: 60px; 
-                    font-weight: 600; 
-                    line-height: 80px;  
-                }
-                p{
-                    font-size: 18px; 
-                    line-height: 1.8; 
-                    margin-bottom: 0;
-                }
+    .container {
+      #carouselExampleIndicators {
+        min-height: 250px;
+        padding: 40px;
+        border-radius: 2px;
+        text-align: center;
+        .carousel-inner {
+          .carousel-item {
+            .avatar {
+              height: 200px;
+              padding-bottom: 40px;
             }
+            .start {
+              height: 30px;
+            }
+          }
         }
+      }
     }
-    .Informacion{
-        padding: 100px 0;
-        // background-color: black;
-        .container-fluid{
-            .content-center{
-                max-width: 800px; 
-                margin: 0 auto 60px auto; 
-                text-align: center; 
-                margin-top: 60px;
-                h1{
-                    font-size: 60px; 
-                    font-weight: 600; 
-                    line-height: 80px;  
-                }
-                p{
-                    font-size: 18px; 
-                    line-height: 1.8; 
-                    margin-bottom: 0;
-                }
+  }
+  .Contact {
+    .container {
+      .row {
+        margin-top: 120px;
+        margin-bottom: 40px;
+        .col-md-6 {
+          .row {
+            .col-md-12 {
+              .btn-primary {
+                background-color: black;
+                text-decoration: none;
+                border-color: black;
+              }
             }
-            .row{
-                .col-md-4{
-                    .portfolio-container{
-                        position: relative; 
-                        overflow: hidden; 
-                        margin: 10px 0;
-                        .portfolio-details{
-                            position: absolute; 
-                            bottom: 25px; 
-                            left: 25px; 
-                            z-index: 10; 
-                            a{
-                                color: black; 
-                                text-decoration: none; 
-                                h2{
-                                    color:black;
-                                }
-                                p{
-                                    color: black;
-                                } 
-                            }
-                        }
-                    }
-                }
-            }
+          }
         }
+        .topmargin-sm {
+          margin-top: 160px;
+          text-align: center;
+        }
+      }
     }
-    .recomendaciones{
-        background-color: purple;
-        .content-center{
-            padding-top: 80px;
-            max-width: 800px; 
-            margin: 0 auto 60px auto; 
-            text-align: center; 
-            margin-top: 60px;
-            h1{
-                font-size: 60px; 
-                font-weight: 600; 
-                line-height: 80px;  
+    #exampleModal {
+      .modal-dialog {
+        .modal-content {
+          .modal-header {
+            h5 {
+              color: black;
             }
-            p{
-                font-size: 18px; 
-                line-height: 1.8; 
-                margin-bottom: 0;
+          }
+          .modal-body {
+            p {
+              color: black;
             }
+          }
         }
-        .container{
-           #carouselExampleIndicators{
-            min-height: 250px; 
-            padding: 40px; 
-            border-radius: 2px; 
-            text-align: center; 
-            .carousel-inner{
-                .carousel-item{
-                    .avatar{
-                        height: 200px;
-                        padding-bottom: 40px;
-                    }
-                    .start{
-                        height: 30px;
-                    }
-                }
-            }
-           } 
-        }
+      }
     }
-    .Contact{
-        margin-bottom: 70px;
-        .container{
-            .row{
-                margin-top: 120px;
-                margin-bottom: 40px;
-                .col-md-6{
-                   .row{
-                       .col-md-12{
-                           .btn-primary{
-                                background-color: black;
-                                text-decoration: none;
-                                border-color: black;
-                           }
-                       }
-                   } 
-                }
-                .topmargin-sm{
-                    margin-top: 160px;
-                    text-align: center;  
-                }
-            }
+  }
+  .Nosotros {
+    margin-top: 200px;
+    padding-top: 0.5rem;
+    background-color: black;
+    .container {
+      .content-center {
+        max-width: 800px;
+        margin: 0 auto 60px auto;
+        text-align: center;
+        margin-top: 150px;
+        h1 {
+          font-size: 60px;
+          font-weight: 600;
+          line-height: 80px;
         }
-    }
-    .Nosotros{
-        margin-top: 200px;
-        .container{
-            .content-center{
-                max-width: 800px; 
-                margin: 0 auto 60px auto; 
-                text-align: center; 
-                margin-top: 150px;
-                h1{
-                    font-size: 60px; 
-                    font-weight: 600; 
-                    line-height: 80px;  
-                }
-                p{
-                    font-size: 18px; 
-                    line-height: 1.8; 
-                    margin-bottom: 0;
-                }
-            }
-            .row{
-                .col-md-4{
-                    .img-fluid{
-                        height: 250px;
-                    }
-                    .redes{
-                        margin-bottom: 20px;
-                        img{
-                            height: 22px; 
-                            padding-right: 8px;
-                        }
-                    }
-                }
-            }
+        p {
+          font-size: 18px;
+          line-height: 1.8;
+          margin-bottom: 0;
         }
+      }
+      .row {
+        .col-md-4 {
+          .img-fluid {
+            height: 250px;
+          }
+          .redes {
+            margin-bottom: 20px;
+            img {
+              height: 22px;
+              padding-right: 8px;
+            }
+          }
+        }
+      }
     }
-    .footer{
-        padding: 40px 0; 
-        text-align: center; 
-        color: white; 
-        background: black;
-        .container-fluid{
+  }
+  #productos {
+    padding-top: 140px;
+    padding-bottom: 50px;
+    .content-center {
+      max-width: 800px;
+      margin: 0 auto 60px auto;
+      text-align: center;
+      margin-top: 10px;
+      h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 80px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 0;
+      }
+    }
+    .row {
+      .col-md-4 {
+        .Contenido {
+          margin: 15px 0p;
+          .PlanesWeb {
+            margin-top: 10px;
+            padding: 40px 40px;
+            border-radius: 10px;
             background-color: black;
-            img{
-                max-height: 120px;
+            border: 2px solid white;
+            ul {
+              margin-top: 15px;
             }
-            ul{
-                .footer-menu{
-                    padding: 10px 15px;
-                    a{
-                        color: white;
-                    }
-                }
-            }   
+            a {
+              color: white;
+              border: 1px white solid;
+              text-decoration: none;
+              width: 100%;
+            }
+          }
         }
+      }
+      .col-md-6 {
+        .Contenido {
+          margin: 15px 0p;
+          .PlanesWeb {
+            margin-top: 10px;
+            padding: 40px 40px;
+            border-radius: 10px;
+            background-color: black;
+            border: 2px solid white;
+            ul {
+              margin-top: 15px;
+            }
+            a {
+              color: white;
+              border: 1px white solid;
+              text-decoration: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+      .col-md-3 {
+        .Contenido {
+          .Usb {
+            margin-top: 10px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            background-color: black;
+            border: 2px solid white;
+            a {
+              color: white;
+              border: 1px white solid;
+              text-decoration: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+      .col-md-12 {
+        padding-top: 50px;
+        h2 {
+          text-align: center;
+        }
+      }
     }
+    #exampleModal {
+      .modal-dialog {
+        .modal-content {
+          .modal-header {
+            h5 {
+              color: black;
+            }
+          }
+          .modal-body {
+            p {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    background: black;
+    .container-fluid {
+      background-color: black;
+      img {
+        max-height: 120px;
+      }
+      ul {
+        .footer-menu {
+          padding: 10px 15px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }
