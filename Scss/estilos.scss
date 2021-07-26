@@ -98,11 +98,12 @@
     }
   }
   .cabecera {
-    background-image: url(/Images/banner.jpg);
+    background-image: url(/Images/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     padding-top: $pixel140;
-    min-height: 760px;
+    height: 100vh;
     .container {
       .content-center {
         @include content-center(150);
