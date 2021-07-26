@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Para todo el codigo en común */
+/* line 69, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -10,22 +11,27 @@
   font-size: 16px;
 }
 
+/* line 77, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body {
   background-color: purple;
 }
 
+/* line 80, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body nav {
   min-height: 80px;
 }
 
+/* line 84, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body nav .container a img {
   max-width: 80px;
 }
 
+/* line 92, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body nav .container #navbarSupportedContent .navbar-nav .nav-item .nav-link {
   color: black;
 }
 
+/* line 100, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .cabecera {
   background-image: url(../Images/banner1.jpg);
   background-repeat: no-repeat;
@@ -35,6 +41,7 @@
   height: 100vh;
 }
 
+/* line 108, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .cabecera .container .content-center {
   max-width: 800px;
   margin: 0 auto 60px auto;
@@ -43,23 +50,27 @@
   margin-top: 150px;
 }
 
+/* line 16, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .cabecera .container .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 19, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .cabecera .container .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 113, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion {
   padding: 100px 0;
   background-color: black;
 }
 
+/* line 117, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .content-center {
   max-width: 800px;
   margin: 0 auto 60px auto;
@@ -68,24 +79,28 @@
   margin-top: 60px;
 }
 
+/* line 16, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 19, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 122, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container {
   position: relative;
   overflow: hidden;
   margin: 10px 0;
 }
 
+/* line 126, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container .portfolio-details {
   position: absolute;
   bottom: 25px;
@@ -93,18 +108,22 @@
   z-index: 10;
 }
 
+/* line 131, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container .portfolio-details h2 {
   color: black;
 }
 
+/* line 134, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Informacion .container-fluid .row .col-md-4 .portfolio-container .portfolio-details p {
   color: black;
 }
 
+/* line 143, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones {
   background-color: purple;
 }
 
+/* line 145, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .content-center {
   max-width: 800px;
   margin: 0 auto 60px auto;
@@ -113,30 +132,35 @@
   margin-top: 60px;
 }
 
+/* line 16, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 19, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 147, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 150, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 155, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .container #carouselExampleIndicators {
   min-height: 250px;
   padding: 40px;
@@ -144,45 +168,54 @@
   text-align: center;
 }
 
+/* line 162, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .container #carouselExampleIndicators .carousel-inner .carousel-item .avatar {
   height: 200px;
   padding-bottom: 40px;
 }
 
+/* line 166, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .recomendaciones .container #carouselExampleIndicators .carousel-inner .carousel-item .start {
   height: 30px;
 }
 
+/* line 176, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Contact .container .row {
   margin-top: 120px;
   margin-bottom: 40px;
 }
 
+/* line 182, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Contact .container .row .col-md-6 .row .col-md-12 .btn-primary {
   background-color: black;
   text-decoration: none;
   border-color: black;
 }
 
+/* line 190, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Contact .container .row .topmargin-sm {
   margin-top: 160px;
   text-align: center;
 }
 
+/* line 200, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Contact #exampleModal .modal-dialog .modal-content .modal-header h5 {
   color: black;
 }
 
+/* line 205, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Contact #exampleModal .modal-dialog .modal-content .modal-body p {
   color: black;
 }
 
+/* line 213, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros {
   margin-top: 200px;
   padding-top: 0.5rem;
   background-color: black;
 }
 
+/* line 218, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .content-center {
   max-width: 800px;
   margin: 0 auto 60px auto;
@@ -191,36 +224,43 @@
   margin-top: 150px;
 }
 
+/* line 16, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 19, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 223, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .row .col-md-4 .img-fluid {
   height: 250px;
 }
 
+/* line 226, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .row .col-md-4 .redes {
   margin-bottom: 20px;
 }
 
+/* line 228, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .Nosotros .container .row .col-md-4 .redes img {
   height: 22px;
   padding-right: 8px;
 }
 
+/* line 237, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos {
   padding-top: 140px;
   padding-bottom: 60px;
 }
 
+/* line 240, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .content-center {
   max-width: 800px;
   margin: 0 auto 60px auto;
@@ -229,22 +269,26 @@
   margin-top: 10px;
 }
 
+/* line 16, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .content-center h1 {
   font-size: 60px;
   font-weight: 600;
   line-height: 80px;
 }
 
+/* line 19, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .content-center p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 0;
 }
 
+/* line 245, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-4 .Contenido {
   margin: 15px 0;
 }
 
+/* line 247, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-4 .Contenido .PlanesWeb {
   margin-top: 10px;
   border-radius: 10px;
@@ -253,10 +297,12 @@
   padding: 40px;
 }
 
+/* line 42, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-4 .Contenido .PlanesWeb ul {
   margin-top: 15px;
 }
 
+/* line 45, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-4 .Contenido .PlanesWeb a {
   color: white;
   border: 1px white solid;
@@ -268,10 +314,12 @@
   width: 100%;
 }
 
+/* line 253, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-6 .Contenido {
   margin: 15px 0;
 }
 
+/* line 255, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-6 .Contenido .PlanesWeb {
   margin-top: 10px;
   border-radius: 10px;
@@ -280,10 +328,12 @@
   padding: 40px;
 }
 
+/* line 42, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-6 .Contenido .PlanesWeb ul {
   margin-top: 15px;
 }
 
+/* line 45, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-6 .Contenido .PlanesWeb a {
   color: white;
   border: 1px white solid;
@@ -295,6 +345,7 @@
   width: 100%;
 }
 
+/* line 262, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-3 .Contenido .Usb {
   margin-top: 10px;
   border-radius: 10px;
@@ -303,10 +354,12 @@
   padding: 40px;
 }
 
+/* line 42, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-3 .Contenido .Usb ul {
   margin-top: 15px;
 }
 
+/* line 45, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-3 .Contenido .Usb a {
   color: white;
   border: 1px white solid;
@@ -318,6 +371,7 @@
   width: 100%;
 }
 
+/* line 264, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-3 .Contenido .Usb a {
   color: white;
   border: 1px white solid;
@@ -329,22 +383,27 @@
   width: 100%;
 }
 
+/* line 270, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-12 {
   padding-top: 60px;
 }
 
+/* line 272, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos .row .col-md-12 h2 {
   text-align: center;
 }
 
+/* line 281, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos #exampleModal .modal-dialog .modal-content .modal-header h5 {
   color: black;
 }
 
+/* line 286, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body #productos #exampleModal .modal-dialog .modal-content .modal-body p {
   color: black;
 }
 
+/* line 294, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .footer {
   padding: 40px 0;
   text-align: center;
@@ -352,18 +411,24 @@
   background: black;
 }
 
+/* line 299, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .footer .container-fluid {
   background-color: black;
 }
 
+/* line 301, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .footer .container-fluid img {
   max-height: 120px;
 }
 
+/* line 305, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .footer .container-fluid ul .footer-menu {
   padding: 10px 15px;
 }
 
+/* line 307, ../../../../../Desktop/ProyectosDev/Coderhouse/proyectocoderhouse/Scss/estilos.scss */
 .body .footer .container-fluid ul .footer-menu a {
   color: white;
 }
+
+/*# sourceMappingURL=estilos.css.map */
