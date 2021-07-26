@@ -1,23 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "variables";
+// mixin conten-center
+@mixin content-center($margin-top) {
+  max-width: 800px;
+  margin: 0 auto $px60 auto;
+  text-align: center;
+  margin-top: $margin-top;
+  @if $margin-top == 150 {
+    margin-top: $pixel150;
+  } @else if $margin-top == 60 {
+    margin-top: $px60;
+  } @else if $margin-top == 10 {
+    margin-top: $pixel10;
+  }
+  h1 {
+    @include h1;
+  }
+  p {
+    @include p;
+  }
+}
+// mixin h1
+@mixin h1 {
+  font-size: $px60;
+  font-weight: 600;
+  line-height: $pixel80;
+}
+// mixin p
+@mixin p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+// mixin planesweb
+@mixin planesweb {
+  margin-top: $pixel10;
+  border-radius: $pixel10;
+  background-color: $color2;
+  border: 2px solid $color3;
+  padding: $pixel40;
+  ul {
+    margin-top: $pixel15;
+  }
+  a {
+    @include a;
+  }
+}
+// mixin comprar
+@mixin comprar {
+  color: $color3;
+  border: 1px $color3 solid;
+  text-decoration: none;
+  width: 100%;
+}
+// mixin a
+@mixin a {
+  color: $color3;
+  border: 1px $color3 solid;
+  text-decoration: none;
+  width: 100%;
+  color: $color3;
+  border: 1px $color3 solid;
+  text-decoration: none;
+  width: 100%;
+}
+
 /* Para todo el codigo en común */
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: $color3;
   text-decoration: none;
   line-height: 16px;
   font-size: 16px;
 }
 .body {
-  background-color: purple;
+  background-color: $color1;
   // Modificando el Navbar
   nav {
-    min-height: 80px;
+    min-height: $pixel80;
     .container {
       a {
         img {
-          // min-width: 100px;
-          max-width: 80px;
+          max-width: $pixel80;
         }
       }
       // Colores de los links
@@ -25,7 +90,7 @@
         .navbar-nav {
           .nav-item {
             .nav-link {
-              color: black;
+              color: $color2;
             }
           }
         }
@@ -33,65 +98,40 @@
     }
   }
   .cabecera {
-    background-image: url(/Images/cabecera.jpg);
+    background-image: url(/Images/banner.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 140px;
+    padding-top: $pixel140;
     min-height: 760px;
     .container {
       .content-center {
-        max-width: 800px;
-        margin: 0 auto 60px auto;
-        text-align: center;
-        margin-top: 150px;
-        h1 {
-          font-size: 60px;
-          font-weight: 600;
-          line-height: 80px;
-        }
-        p {
-          font-size: 18px;
-          line-height: 1.8;
-          margin-bottom: 0;
-        }
+        @include content-center(150);
       }
     }
   }
   .Informacion {
     padding: 100px 0;
-    background-color: black;
+    background-color: $color2;
     .container-fluid {
       .content-center {
-        max-width: 800px;
-        margin: 0 auto 60px auto;
-        text-align: center;
-        margin-top: 60px;
-        h1 {
-          font-size: 60px;
-          font-weight: 600;
-          line-height: 80px;
-        }
-        p {
-          font-size: 18px;
-          line-height: 1.8;
-          margin-bottom: 0;
-        }
+        @include content-center(60);
       }
       .row {
         .col-md-4 {
           .portfolio-container {
             position: relative;
             overflow: hidden;
-            margin: 10px 0;
+            margin: $pixel10 0;
             .portfolio-details {
               position: absolute;
               bottom: 25px;
               left: 25px;
               z-index: 10;
               h2 {
-                color: black;
+                color: $color2;
               }
               p {
-                color: black;
+                color: $color2;
               }
             }
           }
@@ -100,35 +140,27 @@
     }
   }
   .recomendaciones {
-    background-color: purple;
+    background-color: $color1;
     .content-center {
-      padding-top: 80px;
-      max-width: 800px;
-      margin: 0 auto 60px auto;
-      text-align: center;
-      margin-top: 60px;
+      @include content-center(60);
       h1 {
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 80px;
+        @include h1;
       }
       p {
-        font-size: 18px;
-        line-height: 1.8;
-        margin-bottom: 0;
+        @include p;
       }
     }
     .container {
       #carouselExampleIndicators {
-        min-height: 250px;
-        padding: 40px;
+        min-height: $pixel250;
+        padding: $pixel40;
         border-radius: 2px;
         text-align: center;
         .carousel-inner {
           .carousel-item {
             .avatar {
-              height: 200px;
-              padding-bottom: 40px;
+              height: $pixel200;
+              padding-bottom: $pixel40;
             }
             .start {
               height: 30px;
@@ -141,15 +173,15 @@
   .Contact {
     .container {
       .row {
-        margin-top: 120px;
-        margin-bottom: 40px;
+        margin-top: $pixel120;
+        margin-bottom: $pixel40;
         .col-md-6 {
           .row {
             .col-md-12 {
               .btn-primary {
-                background-color: black;
+                background-color: $color2;
                 text-decoration: none;
-                border-color: black;
+                border-color: $color2;
               }
             }
           }
@@ -165,12 +197,12 @@
         .modal-content {
           .modal-header {
             h5 {
-              color: black;
+              color: $color2;
             }
           }
           .modal-body {
             p {
-              color: black;
+              color: $color2;
             }
           }
         }
@@ -178,30 +210,17 @@
     }
   }
   .Nosotros {
-    margin-top: 200px;
+    margin-top: $pixel200;
     padding-top: 0.5rem;
-    background-color: black;
+    background-color: $color2;
     .container {
       .content-center {
-        max-width: 800px;
-        margin: 0 auto 60px auto;
-        text-align: center;
-        margin-top: 150px;
-        h1 {
-          font-size: 60px;
-          font-weight: 600;
-          line-height: 80px;
-        }
-        p {
-          font-size: 18px;
-          line-height: 1.8;
-          margin-bottom: 0;
-        }
+        @include content-center(150);
       }
       .row {
         .col-md-4 {
           .img-fluid {
-            height: 250px;
+            height: $pixel250;
           }
           .redes {
             margin-bottom: 20px;
@@ -215,86 +234,40 @@
     }
   }
   #productos {
-    padding-top: 140px;
-    padding-bottom: 50px;
+    padding-top: $pixel140;
+    padding-bottom: $px60;
     .content-center {
-      max-width: 800px;
-      margin: 0 auto 60px auto;
-      text-align: center;
-      margin-top: 10px;
-      h1 {
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 80px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 1.8;
-        margin-bottom: 0;
-      }
+      @include content-center(10);
     }
     .row {
       .col-md-4 {
         .Contenido {
-          margin: 15px 0p;
+          margin: $pixel15 0;
           .PlanesWeb {
-            margin-top: 10px;
-            padding: 40px 40px;
-            border-radius: 10px;
-            background-color: black;
-            border: 2px solid white;
-            ul {
-              margin-top: 15px;
-            }
-            a {
-              color: white;
-              border: 1px white solid;
-              text-decoration: none;
-              width: 100%;
-            }
+            @include planesweb;
           }
         }
       }
       .col-md-6 {
         .Contenido {
-          margin: 15px 0p;
+          margin: $pixel15 0;
           .PlanesWeb {
-            margin-top: 10px;
-            padding: 40px 40px;
-            border-radius: 10px;
-            background-color: black;
-            border: 2px solid white;
-            ul {
-              margin-top: 15px;
-            }
-            a {
-              color: white;
-              border: 1px white solid;
-              text-decoration: none;
-              width: 100%;
-            }
+            @include planesweb;
           }
         }
       }
       .col-md-3 {
         .Contenido {
           .Usb {
-            margin-top: 10px;
-            padding: 10px 10px;
-            border-radius: 10px;
-            background-color: black;
-            border: 2px solid white;
+            @include planesweb;
             a {
-              color: white;
-              border: 1px white solid;
-              text-decoration: none;
-              width: 100%;
+              @include a;
             }
           }
         }
       }
       .col-md-12 {
-        padding-top: 50px;
+        padding-top: $px60;
         h2 {
           text-align: center;
         }
@@ -305,12 +278,12 @@
         .modal-content {
           .modal-header {
             h5 {
-              color: black;
+              color: $color2;
             }
           }
           .modal-body {
             p {
-              color: black;
+              color: $color2;
             }
           }
         }
@@ -318,20 +291,20 @@
     }
   }
   .footer {
-    padding: 40px 0;
+    padding: $pixel40 0;
     text-align: center;
-    color: white;
-    background: black;
+    color: $color3;
+    background: $color2;
     .container-fluid {
-      background-color: black;
+      background-color: $color2;
       img {
-        max-height: 120px;
+        max-height: $pixel120;
       }
       ul {
         .footer-menu {
-          padding: 10px 15px;
+          padding: $pixel10 $pixel15;
           a {
-            color: white;
+            color: $color3;
           }
         }
       }
